@@ -1,45 +1,45 @@
-Procedure:
+Network Design and Configuration Report
 
- 1. Topology Design:
-○ Design a network topology using Cisco Packet Tracer that includes:
+1. Topology Design:
 
-LAN Configuration: At least 10 computers connected to switches.
+Objective: Design a network topology using Cisco Packet Tracer to connect multiple computers and establish WAN connectivity.
 
-WAN Configuration: Connect the LAN network to another network using routers.
+LAN Configuration:
 
- 2. Network Setup in Cisco Packet Tracer:
-○ Add Devices:
+Devices: At least 10 computers connected to switches.
+Setup: Utilize at least 2 switches to manage the LAN.
+WAN Configuration:
 
-Place and connect 10-15 computers.
+Devices: Connect the LAN network to another network using at least 2 routers.
+Setup: Ensure proper configuration for WAN connectivity between different networks.
+2. Network Setup in Cisco Packet Tracer:
 
-Add necessary switches (at least 2 for the LAN setup).
+Adding Devices:
 
-Add at least 2 routers for WAN setup. ○ Configure IP Addresses:
+Computers: Place and connect 10 to 15 computers within the network.
+Switches: Incorporate a minimum of 2 switches to manage LAN traffic.
+Routers: Add at least 2 routers to facilitate WAN connectivity.
+Configuring IP Addresses:
 
-Assign IP addresses to all computers within the LAN.
+Computers: Assign unique IP addresses to each computer within the LAN.
+Routers: Configure router interfaces with appropriate IP addresses.
+Routing: Set up routing protocols or static routes as necessary to enable communication between networks.
+3. Configuration Steps:
 
-Configure router interfaces with appropriate IP addresses.
+LAN Configuration:
 
-Set up routing protocols or static routes as needed for WAN communication.
+Connect Computers: Link all computers to the switches.
+Assign IP Addresses: Configure IP addresses on each computer to ensure proper network communication.
+Connect Switches: Interconnect the switches to expand the LAN as needed.
+WAN Configuration:
 
-  3. Configuration Steps:
-○ LAN Configuration:
+Connect Routers: Link the routers to each other to establish WAN connections.
+Configure Router Interfaces: Set IP addresses for router interfaces to facilitate network routing.
+Set Up Routing: Implement static or dynamic routing to ensure that the LANs can communicate with each other through the WAN.
+4. Simulation:
 
-Connect computers to the switches.
+Message Transmission:
 
-Configure IP addresses on each computer.
-
-Connect switches with each other as needed. ○ WAN Configuration:
-
-Connect routers to each other.
-
-Configure router interfaces with IP addresses.
-
-Set up routing (static or dynamic) to ensure connectivity between the LANs.
-
-  4. Simulation:
-   Send a Message:
-
-Use the simulation mode in Cisco Packet Tracer.
-Configure and send a message from a computer in one network to a computer in another network.
-Capture and verify the message transmission.
+Simulation Mode: Use Cisco Packet Tracer’s simulation mode to test network functionality.
+Send a Message: Configure and send a message from a computer in one network to a computer in another network.
+Verify Transmission: Capture and confirm the successful transmission of the message to ensure proper network setup and connectivity.
